@@ -1,16 +1,19 @@
-# Budget Tracker Starter Code
+# Budget Tracker
 
-User Story
+## Description
+This project required converting an existing budget tracking app into a Progressive Web App with offline persistence. Users may download the app to their smart device due to the use of a web manifest. Service Workers were installed to provide offline persistence, while IndexedDb was implemented in order to track transactions made by the user when they are without a data connection.
 
-AS AN avid traveler
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling 
+## Technologies Used
+- JavaScript
+- MongoDB
+- IndexedDb
+- Web Manifest
+- Service Workers API
 
+## Website Link
 
-Acceptance Criteria
+## Screenshots
+![budget-tracker-ss-1](https://user-images.githubusercontent.com/76404552/123873684-bc1f1580-d8eb-11eb-8591-562f90de3867.png)
 
-GIVEN a budget tracker without an internet connection
-WHEN the user inputs an expense or deposit
-THEN they will receive a notification that they have added an expense or deposit
-WHEN the user reestablishes an internet connection
-THEN the deposits or expenses added while they were offline are added to their transaction 
+## About The Author
+Cat Westover
