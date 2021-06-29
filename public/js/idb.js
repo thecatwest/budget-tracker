@@ -92,4 +92,5 @@ function budgetResponse() {
         }
     }
 };
-}
+
+window.addEventListener('online', budgetResponse);

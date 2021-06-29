@@ -3,7 +3,7 @@
     "short_name": "Budget",
     "theme_color": "#ffffff",
     "background_color": "#000000",
-    "start_url": "/",
+    "start_url": "index.html",
     "orientation": "portrait",
     "display": "standalone",
     "description": "App that allows users to manage their spending with or without a data connection.",
